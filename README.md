@@ -38,7 +38,7 @@
 
 ## Overview
 
-<iframe src=" https://amrityadavv.github.io/the-team-page/" height="200" width="300" title="Iframe Example"></iframe>)
+<iframe src=" https://amrityadavv.github.io/the-team-page/" height="200" width="300" title="Iframe Example"></iframe>
 
 <!-- Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 

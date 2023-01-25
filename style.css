@@ -14,10 +14,10 @@ h1 {
 }
 
 .about {
-    position: absolute;
+      position: absolute;
     max-width: 370px;
-    left: 836px;
-    top: 50px;
+    left: 70%;
+    top: 17%;
     height: 87px;
 }
 

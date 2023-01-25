@@ -24,6 +24,7 @@ h1 {
 .cont {
     display: flex;
     margin-left: 180px;
+    padding-bottom:100px;
     flex-wrap: wrap;
     overflow: hidden;
     position: absolute;
@@ -61,12 +62,13 @@ h1 {
 }
 
 #foot {
+      position: fixed;
     color: beige;
-    text-decoration: none;
-    background-color: rgb(90, 93, 93);
-    margin-top: 91%;
-    margin-left: 39%;
-    padding: 10px;
+    background-color: rgba(158, 152, 155, 0.68);
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    text-align: center;
 }
 
 @media screen and (max-width:500px) {
@@ -120,11 +122,12 @@ h1 {
         margin-left: 81px;
     }
     #foot {
-        color: beige;
-        text-decoration: none;
-        background-color: rgb(90, 93, 93);
-        margin-top: 280%;
-        margin-left: 1%;
-        padding: 10px;
+       position: fixed;
+    color: beige;
+    background-color: rgba(158, 152, 155, 0.68);
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    text-align: center;
     }
 }

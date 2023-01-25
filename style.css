@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,700;1,700&display=swap');
+* {
+    font-family: 'PT Serif', serif;
+}
+
+body {
+    display: flex;
+}
+
+h1 {
+    position: absolute;
+    margin-left: 180px;
+    top: 50px;
+}
+
+.about {
+    position: absolute;
+    max-width: 370px;
+    left: 836px;
+    top: 50px;
+    height: 87px;
+}
+
+.cont {
+    display: flex;
+    margin-left: 180px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    position: absolute;
+    top: 250px;
+}
+
+.cont p {
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 60px;
+    transform: rotate(90deg);
+}
+
+.img2,
+.img5 {
+    margin-top: 100px;
+}
+
+.img {
+    width: 250px;
+    height: 320px;
+}
+
+#art {
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+#tech,
+#ux,
+#dev1,
+#dev2 {
+    margin-top: 40px;
+    margin-left: 215px;
+}
+
+#foot {
+    color: beige;
+    text-decoration: none;
+    background-color: rgb(90, 93, 93);
+    margin-top: 91%;
+    margin-left: 39%;
+    padding: 10px;
+}
+
+@media screen and (max-width:500px) {
+    body {
+        margin: 10px;
+    }
+    h1 {
+        top: 20px;
+        margin-left: 0px;
+    }
+    .about {
+        left: 30px;
+        padding-right: 20px;
+        top: 80px;
+    }
+    .cont {
+        margin-left: 0px;
+    }
+    .img {
+        margin: 0px;
+        max-width: 100px;
+        height: 150px;
+    }
+    .cont p {
+        margin-top: 30px;
+        font-size: 8px;
+        margin-left: 69px;
+    }
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5 {
+        margin: 20px;
+    }
+    #art {
+        font-size: 8px;
+        margin-top: 25px;
+        margin-left: 75px;
+    }
+    #tech {
+        font-size: 8px;
+        margin-top: 17px;
+        margin-left: 83px;
+    }
+    #ux,
+    #dev1,
+    #dev2 {
+        font-size: 8px;
+        margin-top: 20px;
+        margin-left: 81px;
+    }
+    #foot {
+        color: beige;
+        text-decoration: none;
+        background-color: rgb(90, 93, 93);
+        margin-top: 280%;
+        margin-left: 1%;
+        padding: 10px;
+    }
+}
